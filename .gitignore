@@ -5,4 +5,4 @@ lib/
 include/
 share/
 lib64
-
+*.pyc
