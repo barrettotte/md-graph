@@ -1,9 +1,10 @@
 
 class MdFile():
 
-    def __init__(self, file_path, title, mdlinks):
+    def __init__(self, file_path, base_name, title, mdlinks):
         self.file_path = file_path
-        self.title = title
+        self.base_name = base_name
+        self.title = title if title else base_name
         self.mdlinks = mdlinks
 
     def __str__(self):
