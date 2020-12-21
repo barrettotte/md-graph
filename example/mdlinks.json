@@ -1,371 +1,422 @@
 [
   {
+    "uid": 1,
     "file_path": "example/_Root.md",
     "base_name": "_Root",
     "title": "_Root",
     "mdlinks": [
-      "example/Chemistry/Chemistry.md",
-      "example/Physics/Physics.md",
-      "example/Computer-Science/Computer-Science.md",
-      "example/Mathematics/Mathematics.md",
-      "example/Engineering/Engineering.md"
+      9,
+      2,
+      31,
+      12,
+      6
     ]
   },
   {
+    "uid": 2,
     "file_path": "example/Physics/Physics.md",
     "base_name": "Physics",
     "title": "Physics",
     "mdlinks": []
   },
   {
+    "uid": 3,
     "file_path": "example/Engineering/Chemical-Engineering.md",
     "base_name": "Chemical-Engineering",
     "title": "Chemical Engineering",
     "mdlinks": [
-      "example/Engineering/Materials-Engineering.md"
+      4
     ]
   },
   {
+    "uid": 4,
     "file_path": "example/Engineering/Materials-Engineering.md",
     "base_name": "Materials-Engineering",
     "title": "Materials Engineering",
     "mdlinks": []
   },
   {
+    "uid": 5,
     "file_path": "example/Engineering/Mechanical-Engineering.md",
     "base_name": "Mechanical-Engineering",
     "title": "Mechanical Engineering",
     "mdlinks": []
   },
   {
+    "uid": 6,
     "file_path": "example/Engineering/Engineering.md",
     "base_name": "Engineering",
     "title": "Engineering",
     "mdlinks": [
-      "example/Engineering/Chemical-Engineering.md",
-      "example/Engineering/Computer-Engineering.md",
-      "example/Engineering/Electrical-Engineering.md",
-      "example/Engineering/Materials-Engineering.md",
-      "example/Engineering/Mechanical-Engineering.md"
+      3,
+      8,
+      7,
+      4,
+      5
     ]
   },
   {
+    "uid": 7,
     "file_path": "example/Engineering/Electrical-Engineering.md",
     "base_name": "Electrical-Engineering",
     "title": "Electrical Engineering",
     "mdlinks": [
-      "example/Engineering/Computer-Engineering.md"
+      8
     ]
   },
   {
+    "uid": 8,
     "file_path": "example/Engineering/Computer-Engineering.md",
     "base_name": "Computer-Engineering",
     "title": "Computer Engineering",
     "mdlinks": []
   },
   {
+    "uid": 9,
     "file_path": "example/Chemistry/Chemistry.md",
     "base_name": "Chemistry",
     "title": "Chemistry",
     "mdlinks": [
-      "example/Chemistry/Physical-Chemistry.md",
-      "example/Chemistry/Solid-State-Chemistry.md"
+      11,
+      10
     ]
   },
   {
+    "uid": 10,
     "file_path": "example/Chemistry/Solid-State-Chemistry.md",
     "base_name": "Solid-State-Chemistry",
     "title": "Solid State Chemistry",
     "mdlinks": []
   },
   {
+    "uid": 11,
     "file_path": "example/Chemistry/Physical-Chemistry.md",
     "base_name": "Physical-Chemistry",
     "title": "Physical Chemistry",
     "mdlinks": []
   },
   {
+    "uid": 12,
     "file_path": "example/Mathematics/Mathematics.md",
     "base_name": "Mathematics",
     "title": "Mathematics",
     "mdlinks": [
-      "example/Mathematics/Math-Applied/Math-Applied.md",
-      "example/Mathematics/Math-Discrete/Math-Discrete.md",
-      "example/Mathematics/Math-Change/Math-Change.md",
-      "example/Mathematics/Math-Logic/Math-Logic.md",
-      "example/Mathematics/Math-Space/Math-Space.md",
-      "example/Mathematics/Math-Structure/Math-Structure.md"
+      14,
+      18,
+      23,
+      27,
+      16,
+      22
     ]
   },
   {
+    "uid": 13,
     "file_path": "example/Mathematics/Math-Applied/Statistics.md",
     "base_name": "Statistics",
     "title": "Statistics",
     "mdlinks": []
   },
   {
+    "uid": 14,
     "file_path": "example/Mathematics/Math-Applied/Math-Applied.md",
     "base_name": "Math-Applied",
     "title": "Applied Mathematics",
     "mdlinks": [
-      "example/Mathematics/Math-Applied/Statistics.md"
+      13
     ]
   },
   {
+    "uid": 15,
     "file_path": "example/Mathematics/Math-Space/Trigonometry.md",
     "base_name": "Trigonometry",
     "title": "Trigonometry",
     "mdlinks": []
   },
   {
+    "uid": 16,
     "file_path": "example/Mathematics/Math-Space/Math-Space.md",
     "base_name": "Math-Space",
     "title": "Mathematics of Space",
     "mdlinks": [
-      "example/Mathematics/Math-Space/Geometry.md",
-      "example/Mathematics/Math-Space/Trigonometry.md"
+      17,
+      15
     ]
   },
   {
+    "uid": 17,
     "file_path": "example/Mathematics/Math-Space/Geometry.md",
     "base_name": "Geometry",
     "title": "Geometry",
     "mdlinks": []
   },
   {
+    "uid": 18,
     "file_path": "example/Mathematics/Math-Discrete/Math-Discrete.md",
     "base_name": "Math-Discrete",
     "title": "Discrete Mathematics",
     "mdlinks": [
-      "example/Mathematics/Math-Discrete/Combinatorics.md",
-      "example/Computer-Science/Computer-Security/Cryptography.md",
-      "example/Mathematics/Math-Discrete/Graph-Theory.md"
+      19,
+      49,
+      20
     ]
   },
   {
+    "uid": 19,
     "file_path": "example/Mathematics/Math-Discrete/Combinatorics.md",
     "base_name": "Combinatorics",
     "title": "Combinatorics",
     "mdlinks": []
   },
   {
+    "uid": 20,
     "file_path": "example/Mathematics/Math-Discrete/Graph-Theory.md",
     "base_name": "Graph-Theory",
     "title": "Graph Theory",
     "mdlinks": []
   },
   {
+    "uid": 21,
     "file_path": "example/Mathematics/Math-Structure/Linear-Algebra.md",
     "base_name": "Linear-Algebra",
     "title": "Linear Algebra",
     "mdlinks": []
   },
   {
+    "uid": 22,
     "file_path": "example/Mathematics/Math-Structure/Math-Structure.md",
     "base_name": "Math-Structure",
     "title": "Math Structure",
     "mdlinks": [
-      "example/Mathematics/Math-Structure/Linear-Algebra.md"
+      21
     ]
   },
   {
-    "file_path": "example/Mathematics/Math-Change/Calculus-Mulit.md",
-    "base_name": "Calculus-Mulit",
-    "title": "Multivariable Calculus",
-    "mdlinks": []
-  },
-  {
+    "uid": 23,
     "file_path": "example/Mathematics/Math-Change/Math-Change.md",
     "base_name": "Math-Change",
     "title": "Mathematics of Change",
     "mdlinks": [
-      "example/Mathematics/Math-Change/Calculus-Single.md",
-      "example/Mathematics/Math-Change/Differential-Equations.md"
+      25,
+      26,
+      24
     ]
   },
   {
+    "uid": 24,
     "file_path": "example/Mathematics/Math-Change/Differential-Equations.md",
     "base_name": "Differential-Equations",
     "title": "Differential Equations",
     "mdlinks": []
   },
   {
+    "uid": 25,
     "file_path": "example/Mathematics/Math-Change/Calculus-Single.md",
     "base_name": "Calculus-Single",
     "title": "Singlevariable Calculus",
     "mdlinks": []
   },
   {
+    "uid": 26,
+    "file_path": "example/Mathematics/Math-Change/Calculus-Multi.md",
+    "base_name": "Calculus-Multi",
+    "title": "Multivariable Calculus",
+    "mdlinks": []
+  },
+  {
+    "uid": 27,
     "file_path": "example/Mathematics/Math-Logic/Math-Logic.md",
     "base_name": "Math-Logic",
     "title": "Mathematics of Logic",
     "mdlinks": [
-      "example/Mathematics/Math-Logic/Set-Theory.md",
-      "example/Computer-Science/Theory-of-Computation.md"
+      28,
+      29
     ]
   },
   {
+    "uid": 28,
     "file_path": "example/Mathematics/Math-Logic/Set-Theory.md",
     "base_name": "Set-Theory",
     "title": "Set Theory",
     "mdlinks": []
   },
   {
+    "uid": 29,
     "file_path": "example/Computer-Science/Theory-of-Computation.md",
     "base_name": "Theory-of-Computation",
     "title": "Theory of Computation",
     "mdlinks": []
   },
   {
+    "uid": 30,
     "file_path": "example/Computer-Science/Quantum-Computing.md",
     "base_name": "Quantum-Computing",
     "title": "Quantum Computing",
     "mdlinks": [
-      "example/Computer-Science/Programming-Languages/Implementations/Qsharp.md"
+      40
     ]
   },
   {
+    "uid": 31,
     "file_path": "example/Computer-Science/Computer-Science.md",
     "base_name": "Computer-Science",
     "title": "Computer Science",
     "mdlinks": [
-      "example/Computer-Science/Algorithms/Algorithms.md",
-      "example/Computer-Science/Computer-Security/Computer-Security.md",
-      "example/Computer-Science/Mainframe/Mainframe.md",
-      "example/Computer-Science/Operating-Systems.md",
-      "example/Computer-Science/Programming-Languages/Programming-Languages.md",
-      "example/Computer-Science/Quantum-Computing.md",
-      "example/Computer-Science/Theory-of-Computation.md"
+      45,
+      48,
+      42,
+      32,
+      35,
+      30,
+      29
     ]
   },
   {
+    "uid": 32,
     "file_path": "example/Computer-Science/Operating-Systems.md",
     "base_name": "Operating-Systems",
     "title": "Operating Systems",
     "mdlinks": []
   },
   {
+    "uid": 33,
     "file_path": "example/Computer-Science/Programming-Languages/Interpreters.md",
     "base_name": "Interpreters",
     "title": "Interpreters",
     "mdlinks": []
   },
   {
+    "uid": 34,
     "file_path": "example/Computer-Science/Programming-Languages/EBNF.md",
     "base_name": "EBNF",
     "title": "EBNF",
     "mdlinks": []
   },
   {
+    "uid": 35,
     "file_path": "example/Computer-Science/Programming-Languages/Programming-Languages.md",
     "base_name": "Programming-Languages",
     "title": "Programming Languages",
     "mdlinks": [
-      "example/Computer-Science/Programming-Languages/Compilers.md",
-      "example/Computer-Science/Programming-Languages/EBNF.md",
-      "example/Computer-Science/Programming-Languages/Interpreters.md",
-      "example/Computer-Science/Programming-Languages/Implementations/COBOL.md",
-      "example/Computer-Science/Programming-Languages/Implementations/Csharp.md",
-      "example/Computer-Science/Programming-Languages/Implementations/Go.md",
-      "example/Computer-Science/Programming-Languages/Implementations/Python.md",
-      "example/Computer-Science/Programming-Languages/Implementations/Qsharp.md"
+      36,
+      34,
+      33,
+      38,
+      41,
+      39,
+      37,
+      40
     ]
   },
   {
+    "uid": 36,
     "file_path": "example/Computer-Science/Programming-Languages/Compilers.md",
     "base_name": "Compilers",
     "title": "Compilers",
     "mdlinks": []
   },
   {
+    "uid": 37,
     "file_path": "example/Computer-Science/Programming-Languages/Implementations/Python.md",
     "base_name": "Python",
     "title": "Python",
     "mdlinks": []
   },
   {
+    "uid": 38,
     "file_path": "example/Computer-Science/Programming-Languages/Implementations/COBOL.md",
     "base_name": "COBOL",
     "title": "COBOL",
     "mdlinks": []
   },
   {
+    "uid": 39,
     "file_path": "example/Computer-Science/Programming-Languages/Implementations/Go.md",
     "base_name": "Go",
     "title": "Go",
     "mdlinks": []
   },
   {
+    "uid": 40,
     "file_path": "example/Computer-Science/Programming-Languages/Implementations/Qsharp.md",
     "base_name": "Qsharp",
     "title": "Q#",
     "mdlinks": []
   },
   {
+    "uid": 41,
     "file_path": "example/Computer-Science/Programming-Languages/Implementations/Csharp.md",
     "base_name": "Csharp",
     "title": "C#",
     "mdlinks": []
   },
   {
+    "uid": 42,
     "file_path": "example/Computer-Science/Mainframe/Mainframe.md",
     "base_name": "Mainframe",
     "title": "Mainframe",
     "mdlinks": [
-      "example/Computer-Science/Mainframe/IBM-z.md",
-      "example/Computer-Science/Mainframe/Punchcards.md",
-      "example/Computer-Science/Programming-Languages/Implementations/COBOL.md"
+      43,
+      44,
+      38
     ]
   },
   {
+    "uid": 43,
     "file_path": "example/Computer-Science/Mainframe/IBM-z.md",
     "base_name": "IBM-z",
     "title": "IBM z/OS",
     "mdlinks": []
   },
   {
+    "uid": 44,
     "file_path": "example/Computer-Science/Mainframe/Punchcards.md",
     "base_name": "Punchcards",
     "title": "Punchcards",
     "mdlinks": []
   },
   {
+    "uid": 45,
     "file_path": "example/Computer-Science/Algorithms/Algorithms.md",
     "base_name": "Algorithms",
     "title": "Algorithms",
     "mdlinks": [
-      "example/Computer-Science/Algorithms/SHA256.md"
+      46
     ]
   },
   {
+    "uid": 46,
     "file_path": "example/Computer-Science/Algorithms/SHA256.md",
     "base_name": "SHA256",
     "title": "SHA-256",
     "mdlinks": []
   },
   {
+    "uid": 47,
     "file_path": "example/Computer-Science/Computer-Security/Reverse-Engineering.md",
     "base_name": "Reverse-Engineering",
     "title": "Reverse Engineering",
     "mdlinks": []
   },
   {
+    "uid": 48,
     "file_path": "example/Computer-Science/Computer-Security/Computer-Security.md",
     "base_name": "Computer-Security",
     "title": "Computer Security",
     "mdlinks": [
-      "example/Computer-Science/Computer-Security/Cryptography.md",
-      "example/Computer-Science/Computer-Security/Malware-Analysis.md",
-      "example/Computer-Science/Computer-Security/Reverse-Engineering.md"
+      49,
+      50,
+      47
     ]
   },
   {
+    "uid": 49,
     "file_path": "example/Computer-Science/Computer-Security/Cryptography.md",
     "base_name": "Cryptography",
     "title": "Cryptography",
     "mdlinks": []
   },
   {
+    "uid": 50,
     "file_path": "example/Computer-Science/Computer-Security/Malware-Analysis.md",
     "base_name": "Malware-Analysis",
     "title": "Malware Analysis",

@@ -6,3 +6,5 @@ include/
 share/
 lib64
 *.pyc
+
+nx.html

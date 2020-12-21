@@ -11,3 +11,4 @@ Generate graph from markdown link relationships.
 
 ## References
 - https://regexr.com/
+- pyvis - https://pyvis.readthedocs.io/

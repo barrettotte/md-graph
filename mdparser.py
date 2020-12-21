@@ -22,12 +22,16 @@ class MdParser():
 
         with open(file_name, 'r') as f:
             content = f.read()
-            title = self.parse_frontmatter(content)['title']
+            try:
+                title = self.parse_frontmatter(content)['title']
+            except AttributeError:
+                title = base_name
             links = re.findall(RE_MDLINK, content, flags=re.MULTILINE)
         return MdFile(file_name, base_name, title, links)
 
     # parse all markdown files in directory
     def parse(self):
+        uid = 1
 
         # parse each markdown file
         for subdir, dirs, files in os.walk(self.target_dir):
@@ -36,16 +40,18 @@ class MdParser():
                     path = os.path.join(subdir, f)
 
                     if not any(x for x in self.pages if x.file_path == path):
-                        self.pages.append(self.parse_md(path))
+                        md = self.parse_md(path)
+                        md.uid = uid
+                        uid += 1
+                        self.pages.append(md)
 
-        # replace mdlinks with full paths (since now all markdown files are known)
+        # replace mdlinks with uids for future lookup
         for page in self.pages:
-            full_links = []
+            uids = []
 
             for link in page.mdlinks:
-                full_link = list(filter(lambda x: x.base_name == link, self.pages))
-                if len(full_link) > 0:
-                    full_links.append(full_link[0].file_path)
-            page.mdlinks = full_links
-
+                uid = list(filter(lambda x: x.base_name == link, self.pages))
+                if len(uid) > 0:
+                    uids.append(uid[0].uid)
+            page.mdlinks = uids
         return self.pages
