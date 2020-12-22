@@ -32,6 +32,6 @@ var options = {
     },
     "minVelocity": 0.75,
     "solver": "forceAtlas2Based",
-    "timestep": 0.01
+    "timestep": 0.50
   }
 }

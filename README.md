@@ -15,6 +15,19 @@ Example at https://barrettotte.github.io/md-graph/
 - ```python3 mdgraph/mdgraph.py example/mdgraph_config.json```
 
 
+## Examples
+Example at https://barrettotte.github.io/md-graph/
+
+<figure>
+  <p align="center">
+    <img src="docs/example.png" alt="md-graph example" width="60%" height="60%"/>
+    <figcaption>
+      <p align="center">Another example using my Notes repository</p>
+    </figcaption>
+  </p>
+</figure>
+
+
 ## References
 - https://regexr.com/
 - pyvis - https://pyvis.readthedocs.io/
