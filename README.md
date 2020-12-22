@@ -1,6 +1,7 @@
 # md-graph
-Generate graph from markdown link relationships.
+Generate interactive network graph from markdown link relationships.
 
+Example at https://barrettotte.github.io/md-graph/
 
 ## Concept
 - Parse directory of markdown files to build link dictionary
