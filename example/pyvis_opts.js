@@ -24,13 +24,14 @@ var options = {
     },
     "smooth": false
   },
-  
   "physics": {
     "forceAtlas2Based": {
       "gravitationalConstant": -450,
-      "springLength": 100
+      "springLength": 100,
+      "avoidOverlap": 1
     },
     "minVelocity": 0.75,
-    "solver": "forceAtlas2Based"
+    "solver": "forceAtlas2Based",
+    "timestep": 0.01
   }
 }

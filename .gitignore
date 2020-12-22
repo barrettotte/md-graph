@@ -5,6 +5,8 @@ lib/
 include/
 share/
 lib64
+
+__pycache__
 *.pyc
 
-nx.html
+.vscode/

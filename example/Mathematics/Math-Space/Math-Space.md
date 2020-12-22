@@ -1,5 +1,5 @@
 ---
-title: Mathematics of Space
+title: Math of Space
 ---
 
 # Mathematics of Space

@@ -1,5 +1,5 @@
 ---
-title: Mathematics of Logic
+title: Math of Logic
 ---
 
 # Mathematics of Logic

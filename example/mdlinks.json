@@ -136,7 +136,7 @@
     "uid": 16,
     "file_path": "example/Mathematics/Math-Space/Math-Space.md",
     "base_name": "Math-Space",
-    "title": "Mathematics of Space",
+    "title": "Math of Space",
     "mdlinks": [
       17,
       15
@@ -185,7 +185,7 @@
     "uid": 22,
     "file_path": "example/Mathematics/Math-Structure/Math-Structure.md",
     "base_name": "Math-Structure",
-    "title": "Math Structure",
+    "title": "Math of Structure",
     "mdlinks": [
       21
     ]
@@ -194,7 +194,7 @@
     "uid": 23,
     "file_path": "example/Mathematics/Math-Change/Math-Change.md",
     "base_name": "Math-Change",
-    "title": "Mathematics of Change",
+    "title": "Math of Change",
     "mdlinks": [
       25,
       26,
@@ -226,7 +226,7 @@
     "uid": 27,
     "file_path": "example/Mathematics/Math-Logic/Math-Logic.md",
     "base_name": "Math-Logic",
-    "title": "Mathematics of Logic",
+    "title": "Math of Logic",
     "mdlinks": [
       28,
       29

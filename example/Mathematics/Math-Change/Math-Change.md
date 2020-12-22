@@ -1,5 +1,5 @@
 ---
-title: Mathematics of Change
+title: Math of Change
 ---
 
 # Mathematics of Change

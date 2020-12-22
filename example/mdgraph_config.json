@@ -1,0 +1,10 @@
+{
+  "md_dir": "/home/barrett/Programming/Repos/md-graph/example",
+  "graph_opts": {
+    "width": "100%",
+    "height": "90%",
+    "heading": "md-graph example",
+    "bgcolor": "#2e2e2e",
+    "font_color": "#ffffff"
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: Math Structure
+title: Math of Structure
 ---
 
 # Math Structure
