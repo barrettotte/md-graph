@@ -14,6 +14,6 @@ prompt-toolkit==3.0.8
 ptyprocess==0.6.0
 Pygments==2.7.3
 pyvis==0.1.8.2
-PyYAML==5.3.1
+PyYAML==5.4
 traitlets==5.0.5
 wcwidth==0.2.5
